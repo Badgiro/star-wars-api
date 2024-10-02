@@ -1,0 +1,25 @@
+.container__list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  list-style-type: none;
+}
+
+.list__item {
+  max-width: 190px;
+  border-radius: var(--border-radius-small-);
+  cursor: pointer;
+  background: var(--color-white-);
+}
+.list__item a {
+  text-decoration: none;
+  text-align: center;
+  color: var(--color-dark-grey-);
+}
+
+.person__photo {
+  border-radius: var(--border-radius-small-) var(--border-radius-small-) 0 0;
+  width: 100%;
+  height: auto;
+}

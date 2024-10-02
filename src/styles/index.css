@@ -1,0 +1,13 @@
+:root {
+  --color-white-: #fff;
+  --color-black-: black;
+  --color-dark-grey-: #10100e;
+  --border-radius-small-: 3px;
+}
+
+body {
+  background: var(--color-black-);
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
