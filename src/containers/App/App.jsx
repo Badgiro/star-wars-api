@@ -1,4 +1,4 @@
-import styles from "./App.module.css";
+
 import PeoplePage from "../PeoplePage/PeoplePage";
 
 
