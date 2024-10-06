@@ -1,4 +1,4 @@
-import { SWAPI_PEOPLE, SWAPI_ROOT, HTTPS, URL_GUIDE_IMG, GUIDE_IMG_EXTENTION } from "../constants/api";
+import { SWAPI_PEOPLE, SWAPI_ROOT, HTTPS, URL_GUIDE_IMG, GUIDE_IMG_EXTENTION } from "@constants/api";
 
 const getId = (url, category) => {
   const id = url.replace(HTTPS + SWAPI_ROOT + category, "").replace(/\//g, "");
