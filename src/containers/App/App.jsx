@@ -6,7 +6,6 @@ const App = () => {
   return (
     <BrowserRouter>
       <Header/>
-
       <Routes>
         {routesConfig.map((route, index) => {
           return (
