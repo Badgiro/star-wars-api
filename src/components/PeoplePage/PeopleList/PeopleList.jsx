@@ -4,6 +4,8 @@ import PropTypes from 'prop-types'
 
 const PeopleList = ({ people }) => {
   return (
+  <>
+  <h1 className="header__text ">People page</h1>
     <ul className={styles.container__list}>
       {people.map(({ name, img, id }) => {
         return (
@@ -16,6 +18,7 @@ const PeopleList = ({ people }) => {
         );
       })}
     </ul>
+    </>
   );
 };
 

@@ -3,6 +3,7 @@
   --color-black-: black;
   --color-dark-grey-: #10100e;
   --color-blue: #6a83fb;
+  --color-yellow: #ffff00;
   --color-violet: #ae72c2;
 
   --spacing-medium: 20px;
@@ -20,20 +21,32 @@
 
   --text-shadow-yellow: 
   0 0 2px var(--color-white-),
+  0 0 40px var( --color-yellow);
+
+  --text-shadow-blue: 
+  0 0 2px var(--color-white-),
   0 0 40px var( --color-blue);
 
+  
   --theme-default-header : #cccc46;
+  --them-default-bgimage: url(@static/bg.jpg)
 
 
 }
-
+img {
+  display: block;
+}
 body {
   background: var(--color-black-);
-
+  background-image: var(--them-default-bgimage);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top left;
   margin: 0;
   padding: 0;
   font-family: var(--font-family-main);
-  font-size: ;
+  font-size:var(--font-size-main) ;
 }
 .header__text {
   line-height: 1.7;
