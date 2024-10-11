@@ -10,7 +10,7 @@ const PeopleList = ({ people }) => {
       {people.map(({ name, img, id }) => {
         return (
           <li className={styles.list__item} key={id}>
-            <a href="#">
+            <a href="*">
               <img className={styles.person__photo} src={img} alt={name} />
               <p>{name}</p>
             </a>

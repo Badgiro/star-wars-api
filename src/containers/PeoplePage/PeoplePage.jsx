@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { getApiResource, changeHTTP } from "@utils/network";
 import { withErrorApi } from "@helpers/withErrorApi";
 import { PEOPLE_API } from "@constants/api";
-import { getPeopleId, getPeopleImg, get } from "@services/getPeopleData";
+import { getPeopleId, getPeopleImg } from "@services/getPeopleData";
 
 import PeopleList from "@components/PeoplePage/PeopleList";
 import useQueryParams from "@hooks/useQueryParams";

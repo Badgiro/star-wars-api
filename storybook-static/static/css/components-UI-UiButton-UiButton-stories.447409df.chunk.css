@@ -1,0 +1,54 @@
+
+
+
+.UiButton_button__H\+IWy {
+    padding: 10px 20px;
+    font-size: var( --font-size-small);
+   font-family: var(--font-family-main);
+    border: 3px ;
+    border-radius:3px ;
+    font-weight:var(--font-bold) ;
+    background: none;
+    outline: none;
+    transition: var(--transition);
+
+   
+    cursor: pointer;
+}
+.UiButton_button__H\+IWy:disabled, .UiButton_button__H\+IWy:disabled:hover {
+    color: var(--color-gray);
+    border-color: var(--color-gray);
+    cursor: auto;
+    background-color: transparent;
+
+
+}
+
+.UiButton_dark__UM1ZQ{
+    border: 1px solid var(--color-white);
+    color: var(--color-white);
+}
+.UiButton_dark__UM1ZQ:hover {
+    color: var(--color-black);
+    background-color: var(--color-white);
+}
+.UiButton_light__XA8py {
+    border: 1px solid var(--color-black);
+    color: var(--color-black);
+}
+.UiButton_light__XA8py:hover{
+    color: var(--color-white);
+    background-color:var(--color-black) ; 
+}
+:root {
+    --color-white: #fff;
+    --color-black: #000;
+    --color-gray: #9c9c9c;
+    --font-size-small: 14px;
+    --font-family-main: sans-serif;
+    --font-bold: 600;
+    --transition: .4s;
+
+}
+
+/*# sourceMappingURL=components-UI-UiButton-UiButton-stories.447409df.chunk.css.map*/

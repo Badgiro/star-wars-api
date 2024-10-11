@@ -49,6 +49,8 @@ body {
   font-size:var(--font-size-main) ;
 }
 .header__text {
+  margin-left: 40px;
+
   line-height: 1.7;
   font-size: var(--font-size-header);
   text-shadow: 0 0 2px var(--color-black-);

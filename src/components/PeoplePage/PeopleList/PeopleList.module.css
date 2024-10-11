@@ -23,6 +23,7 @@
   height: auto;
 }
 
+
 @media(min-width:801px) {
   .container__list{
     grid-template-columns: repeat(5, 1fr);
