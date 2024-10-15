@@ -15,7 +15,7 @@ const PeoplePage = ({ setErrorApi }) => {
   const [prevPage, setPrevPage] = useState(null);
   const [nextPage, setNextPage] = useState(null);
   const [counterPage, setCounterPage] = useState(1);
-  console.log(counterPage);
+
 
   const query = useQueryParams();
   const queryPage = query.get("page");
@@ -45,7 +45,7 @@ const PeoplePage = ({ setErrorApi }) => {
   };
   useEffect(() => {
     getResource(PEOPLE_API + queryPage);
-  }, [queryPage]);
+  },[]);
 
   return (
     <>
