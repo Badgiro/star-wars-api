@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./PeopleList.module.css";
 import PropTypes from 'prop-types'
+import { Link } from "react-router-dom";
 
 const PeopleList = ({ people }) => {
   return (
@@ -10,10 +11,10 @@ const PeopleList = ({ people }) => {
       {people.map(({ name, img, id }) => {
         return (
           <li className={styles.list__item} key={id}>
-            <a href="*">
+            <Link to={`/people/${id}`}>
               <img className={styles.person__photo} src={img} alt={name} />
               <p>{name}</p>
-            </a>
+            </Link>
           </li>
         );
       })}
