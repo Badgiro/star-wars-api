@@ -30,3 +30,10 @@ export const getApiResource = async (url) => {
     console.error(error.mesage);
   }
 };
+
+export const makeConcurentRequest = async (url) => {
+ const res = await Promise.all(url.map(res => {
+    return fetch(res).then(res=> res.json())
+  }))
+  return res
+}

@@ -1,10 +1,10 @@
-import React from 'react'
+import styles from './style.module.css'
 
 const PersonInfo = ({personInfo}) => {
   return (
-    <ul>
+    <ul className={styles.list__container}>
           {personInfo.map((data) => {
-            return <li key={data.title}>{`${data.title}: ${data.data}`}</li>
+            return <li className={styles.list__item} key={data.title}>{`${data.title}: ${data.data}`}</li>
           })}
         </ul>
   )

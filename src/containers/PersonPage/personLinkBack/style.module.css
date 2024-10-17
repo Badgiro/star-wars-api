@@ -1,0 +1,11 @@
+.person__link {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  color: var(--color-yellow);
+}
+
+.ink__img{
+    width: 20px;
+    height: 20px;
+}

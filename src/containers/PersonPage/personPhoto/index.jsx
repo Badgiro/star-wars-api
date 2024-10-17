@@ -1,8 +1,9 @@
-import React from 'react'
+
+import styles from './style.module.css'
 
 const PersonPhoto = ({personPhoto, personName}) => {
   return (
-    <><img src={personPhoto} alt={personName} /></>
+    <><img className={styles.person__img} src={personPhoto} alt={personName} /></>
   )
 }
 

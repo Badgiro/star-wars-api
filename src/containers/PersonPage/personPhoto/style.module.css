@@ -1,0 +1,7 @@
+.person__img {
+    max-width:30vw;
+max-height: 50vh;
+width: auto;
+height: 100%;
+border-radius: 3px;
+}
